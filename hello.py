@@ -13,5 +13,8 @@ def greetings(string):
         print "hi, thanks for greetings. Welcome to python."
         print
 
+def status(some_string):
+    print some_string
 if __name__ == '__main__':
     greetings("hello")
+    greetings("logged in .. working")
