@@ -2,7 +2,8 @@
 
 # Just a template function
 def my_function():
-    pass
+    return "Nothing to return"
 
 if __name__ == '__main__':
     print "Nothing defined yet!"
+    my_function()
