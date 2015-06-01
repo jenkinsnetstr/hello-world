@@ -15,6 +15,8 @@ def greetings(string):
 
 def status(some_string):
     print some_string
+    if some_string == "working":
+        return "Still Logged In"
 if __name__ == '__main__':
     greetings("hello")
-    greetings("logged in .. working")
+    greetings("working")
